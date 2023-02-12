@@ -1,0 +1,171 @@
+/*
+body{
+    background-color: rgb(221, 222, 224);
+}
+*/
+               /* header & lists*/
+.header
+{
+     color:rgb(17, 17, 17);
+     background-color: rgb(124 134 249 / 55%);
+     text-align: center;
+     overflow: hidden;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 0px;
+     margin-top: 30px;
+     list-style-type: none;
+}
+ul li
+{
+    padding: 10px;
+    margin: 0px;
+    width: 200px;
+    float: left;
+}
+.menu-bar.fa
+{
+    margin-right:10px;
+}
+.ss{
+  display:none; 
+}
+ ul li:hover .ss {
+display:block;
+position:fixed;
+background-color: rgb(126, 179, 223);
+border-radius: 10px;
+width: 200px;
+text-align: left;
+}  
+.ss ul li{
+    list-style-type: none;
+}
+ .menu-bar ul li:hover .ss ul li {
+     border-bottom: 10px rgb(96, 125, 221);
+     margin: 10px;
+     padding: 0px;
+     border-radius: 2px;
+     width: 130px;
+}   
+.menu-bar ul li a{
+    text-decoration:none;
+    color:black;
+    margin-top: -10px;
+    font-size: 20px;
+    display: inline-flex;
+    padding-top: 10px;
+}
+ .h,.menu-bar ul li:hover {
+     background-color: rgb(195, 226, 247);
+     border-radius: 2px;
+     width: 200px;
+ }
+                        /* photos*/
+img
+{
+    width: 150px;
+    height: 200px;
+    margin-left:10px ;
+    margin-top: 0px;
+}
+section{
+    text-align:left;
+}
+img#mo{
+    border: 2px solid black ;
+}
+.photo
+{
+    float: left;
+    width: 100px;   
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+h3
+{
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+}
+.contian
+{
+    margin-top: 0PX;
+    border-top: 0px;
+    border: none;
+    padding: 100px;
+    
+}
+                        /* search*/
+.search1 {
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width:10px;
+    height:10;
+}
+.srch{
+    height:10px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    border:none;
+    height:30px;
+    width:300px ;
+    border-radius: 50px;
+    margin-left: 970px;
+    margin-top:0px;
+}
+                           /* logo*/
+.logo1{
+   height: 10px;
+   display: flex;
+   align-items: center;
+}
+.logo{
+    margin-top:45px;
+    margin-bottom: 10px;
+    border-radius: 300px;
+    height: 50px;
+    width: 50px;
+}
+ span.material-icons{ 
+    display:inline-flex;
+    padding: 0px;
+    height: 0px;
+    width: 25px;
+}
+                 /*books titel*/
+h2.dod{
+    text-align: left;
+    color: rgb(38, 17, 73);
+    margin-right: 190px;
+}
+.cap a {
+    text-decoration: none;
+    text-decoration: underline none ;
+    color: rgb(38, 17, 73);
+    width: 30px;
+    border-bottom: 5px; 
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+ }
+h1{
+     margin-top:35px;
+     margin-bottom: 10px;
+     padding-left: 10px;
+     font-size: 22px;
+     height: 10px;
+     width: 200px;
+    }
+h2{
+     font-size: 30px;
+     padding: 10px;
+     color: rgb(38, 17, 73);
+     text-align: left;
+     padding-left: 10px;
+    }
+    

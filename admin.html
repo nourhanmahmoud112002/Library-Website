@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<head>
+    <title>GALAXY STORE</title>
+    <link rel="shortcut icon" type="image/jpg" href="./ICON55.jpg">
+    <link rel="stylesheet" href="admin.css">
+    <Script type="text/javascript">
+
+        function Color1(color) {
+            localStorage.setItem("Mode", color);
+        }
+
+
+        function fontstyle1() {
+            document.body.style.fontFamily = "cursive";
+        }
+
+        function fontstyle2(font) {
+
+            document.body.style.fontStyle = font;
+            localStorage.font = ("font", font);
+        }
+
+        function fontstyle3() {
+            document.body.style.fontFamily = "Georgia";
+        }
+
+
+        function backimage1() {
+            document.body.style.backgroundImage = "url('ha.jpg')";
+        }
+        function backimage2() {
+            document.body.style.backgroundImage = "url('ha2.jfif')";
+        }
+
+        function size(size) {
+            document.body.style.fontSize = size;
+            localStorage.setItem('size', size);
+        }
+
+    </Script>
+</head>
+
+<body>
+    <section class="nav">
+        <div class="navcont">
+            <ul class="indexlist">
+                <li><a href="Home.html">Home</a></li>
+                <li> <a href="admin.html">Admin Page</a></li>
+                <li><a href="Log out.html">About</a></li>
+                <li><a href="Log out.html">LOG OUT</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="title-page">
+        <div class="title">
+            <h1>Admin Page</h1>
+        </div>
+        <img src="admin.svg">
+    </section>
+    <br>
+
+
+    <section class="contain">
+        <div class="part">
+            <div class="index1">
+                <h2>Background Color</h2>
+                <h4>Do you need to change to (dark , light) mode</h4>
+                <div class="button1">
+                    <button class="b1" onclick="Color1('53, 54, 58')">Drak</button>
+                    <button class="b2" onclick="Color1('white')">Light</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="part">
+            <div class="index2">
+                <h2>Image</h2>
+                <img src="img.svg" class="imgg">
+                <h4>Do you need to change image</h4>
+                <button class="bb2">change</button>
+            </div>
+        </div>
+
+        <br>
+        <div class="part">
+            <div class="index3">
+                <h2>Video</h2>
+                <img src="upload.svg" class="imgvideo">
+                <h4>Do you need to upload any videos </h4>
+                <button class="bb3">change</button>
+            </div>
+        </div>
+
+        <div class="part">
+            <div class="index4">
+                <h2>TEXT</h2>
+                <img src="text.svg" class="imgtext">
+                <h4>Do you need change font Size</h4>
+                <button class="bb4" onclick="size('small')">level 1</button>
+                <button class="bb4" onclick="size('medium')">level 2</button>
+                <br>
+                <button class="bb4" onclick="size('large')">level 3</button>
+                <button class="bb4" onclick="size('x-large')">level 4</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="part">
+            <div class="index5">
+                <h2>Family Font</h2>
+                <h4>you have 4 Familys </h4>
+                <button class="bb5" onclick="fontstyle1()">cursive</button>
+                <button class="bb5" onclick="fontstyle2('italic')">Italic</button>
+                <br>
+                <button class="bb5" onclick="fontstyle3()">Georgia</button>
+                <button class="bb5" onclick="fontstyle2('normal')">Normal</button>
+            </div>
+        </div>
+
+        <div class="part">
+            <div class="index6">
+                <h2>Backgraound image</h2>
+                <img src="back.svg" class="back">
+                <h4>Do you need to tty some background imgae </h4>
+                <button class="bb6" onclick="backimage1()"> Image 1</button>
+                <button class="bb6" onclick="backimage2()"> Image 2</button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body{
+
+padding: 0;
+margin: 0;
+background: url(./ha.jpg);
+background-size: cover;
+
+
+
+}
+form{
+
+ position: absolute;
+ background-color: rgba(0, 0, 0,.7 );
+ width: 390px;
+ height: 450px;
+ border-radius:  15px; 
+ top: 30%;
+ left: 38%;
+ 
+
+}
+
+
+h2{
+
+color: seashell;
+text-align: center;
+
+
+}
+  
+.emile,.username,.password,.number{
+
+position: absolute;
+outline: none;
+border: none;
+width: 250px; 
+height: 30px;
+border-bottom: 5px solid tan;
+padding: 5px;
+left: 70px;
+
+}
+.emile{
+
+top: 90px;
+}
+
+.username{
+
+    top: 140px;
+}
+
+ .password{
+
+    top: 190px;
+ }
+
+ .number{
+
+    top: 240px;
+ }
+
+.register {
+  
+    position: absolute;
+    left: 130px;
+    top: 320px;
+    width: 130px;
+    height: 40px;
+    color:dimgray;
+    background-color:wheat;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+
+ }
+
+    
+
+

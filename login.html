@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">Login Form</div>
+            <div class="title signup">Signup Form</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Register</label>
+                <div class="slider-tab"></div>
+            </div>
+            <!---->
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="User Id" required id="inputuser">
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Enter Password" required id="inputpass">
+                    </div>
+                    <div class="pass-link"><a href="#">Forgot password?</a></div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Login" onclick="Enter()">
+                    </div>
+                    <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+                </form>
+                <!---->
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Email Address" required id="newuser">
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required id="newpass1">
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" required id="newpass2">
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Signup" onclick="Enter()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--<script src="login.js"></script>-->
+    <script>
+
+        function Enter() {
+            let adminuser = "MohamedEmad";
+            let adminpass = "12345";
+
+            let user1 = "AbuNeel";
+            let user2 = "Nour";
+            let user3 = "Haidy";
+            let user4 = "Rewan";
+
+            let userpass = "1234";
+
+            let inputuser = document.getElementById("inputuser").value;
+            let inputpass = document.getElementById("inputpass").value;
+            let newuser = document.getElementById("newuser").value;
+            let newpass1 = document.getElementById("newpass1").value;
+            let newpass2 = document.getElementById("newpass2").value;
+
+            if (inputpass == adminpass && inputuser == adminuser) {
+                alert("Welcome back boss");
+                window.open('admin.html');
+            }
+            else if (inputuser == user1 || inputuser == user2 || inputuser == user3 || inputuser == user4) {
+                if (inputpass == userpass) {
+                    alert("Welcome : " + inputuser);
+                    window.open('Home.html');
+                }
+                else {
+                    alert("password is wrong ");
+                }
+            }
+            else if (inputpass == newpass1 && inputuser == newuser) {
+                alert("Welcome : " + inputuser);
+                window.open('Home.html');
+            }
+            else {
+                alert("Error , Enter the right password and Username");
+
+            }
+            if (newpass1 != newpass2) {
+                alert("pass1 != pass2");
+            }
+        }
+
+
+
+    </script>
+    <script src="login.js"></script>
+</body>
+
+</html>

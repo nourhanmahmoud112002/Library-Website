@@ -1,0 +1,132 @@
+body
+{
+    background-image: url(./ha.jpg);
+    background-size:cover ;
+    background-attachment: fixed;
+}
+
+.nav
+{
+    margin: 10px;
+    text-align: center;
+}
+.navcont
+{
+    margin: 20px;
+    margin-top: 20;
+}
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 40px;
+}
+li{
+    float:left;
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 30px;
+    margin-left: 160px;
+    margin-right: 0;
+  }
+.title-page 
+{
+    text-align: center;
+    margin-top:90px ;
+    margin-left:32% ;
+    color:rgba(255, 255, 255, 0.904);
+    font-size: 40px;
+    border-color:white ;
+    border-style:solid ;
+    border-width:1px ;
+    border-radius:13px ;
+    width: 500px;
+}  
+
+li a:hover
+  {
+      color: #63f5ff;
+  }
+img
+  {
+      width: 200px;
+      height: 200px;
+      margin-left: 0;
+  }
+
+
+
+.part
+{
+    background-color: rgba(255, 255, 255, 0);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+    margin-left: 140px;
+    border-style:solid  1px;
+    display:block;
+    float: left;
+    border-radius: 12px;
+    color: white;
+}
+
+.index1 , .index2 ,.index3 ,.index4 ,.index5 ,.index6
+{
+    margin: 40px;
+}
+ .b1 ,.b2 
+ {
+     width: 60px;
+     height: 60px;
+     margin: 5px;
+     margin-top: 25px;
+     border-radius: 20px;
+ }
+.b1{
+    background-color: rgb(53, 54, 58);
+    color: white;
+    
+}
+.b2{
+    background-color: white;
+    color: black;
+}
+
+.bb2 ,.bb3 ,.bb4 ,.bb5 ,.bb6
+{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    border-color:#63f5ff ;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+}
+.bb2:hover ,.bb3:hover ,.bb4:hover ,.bb5:hover ,.bb6:hover
+{
+    background-color:#63f5ff;
+    color: white;
+    border-radius: 30px;
+}
+.imgvideo ,.imgtext ,.imgg ,.selector ,.back
+{
+    width: 100px;
+    height: 80px;
+}
+.selector
+{
+    margin-left: 47%;
+}
+  
